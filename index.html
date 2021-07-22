@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Menu Order</title>
+    
+    <style>
+      table {
+        text-align: left;
+      }
+      .level-2 :first-child {
+        padding-left: 10px;
+      }
+      tr.level-3 :first-child {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table id="menu"></table>
+      <div id="order"></div>
+      <br>
+      <button type="button" onclick="submitOrder();">Order Now</button>
+      <br>
+      <br>
+      <button type="button" onclick="viewOrder();">View Your Order</button>
+    </form>
+    <script src="./dynamicMenu.js"></script>
+  </body>
+</html>
